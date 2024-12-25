@@ -10,15 +10,15 @@ const About = () => {
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+            <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 border border-black">
             <Users className="w-12 h-12 text-blue-600 mb-6 mx-auto" />
             <h3 className="text-xl font-semibold text-center mb-4">Our Community</h3>
             <p className="text-gray-600 text-center">
               Building stronger communities through unity, support, and shared values.
             </p>
-          </div>
+            </div>
 
-          <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 border border-black">
             <Target className="w-12 h-12 text-blue-600 mb-6 mx-auto" />
             <h3 className="text-xl font-semibold text-center mb-4">Our Focus</h3>
             <p className="text-gray-600 text-center">
@@ -26,7 +26,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+          <div className="bg-white p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 border border-black">
             <Award className="w-12 h-12 text-blue-600 mb-6 mx-auto" />
             <h3 className="text-xl font-semibold text-center mb-4">Our Impact</h3>
             <p className="text-gray-600 text-center">

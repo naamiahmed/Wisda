@@ -69,7 +69,7 @@ const Footer = () => {
 
 
           <p className="text-gray-200">
-             Design and Devloped by <b>Naami Ahmed</b>
+             Design and Devloped: <br></br><b>Naami Ahmed</b>
               <div className="flex justify-center space-x-4 mt-0">
               <a href="mailto:naamiahmed27@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-300 flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"></svg>
