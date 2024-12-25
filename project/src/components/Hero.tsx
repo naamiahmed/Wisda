@@ -19,6 +19,11 @@ const Hero = () => {
       </div>
 
       <div className="relative container mx-auto px-4 text-center text-white">
+        <img 
+          src="../../public/assets/Wisda_Logo.png" 
+          alt="WISDA Logo" 
+          className="mx-auto mb-6 w-40 h-40 object-contain animate-fade-in"
+        />
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
           WISDA Welfare Association
         </h1>
@@ -28,8 +33,8 @@ const Hero = () => {
         <button
           onClick={scrollToAbout}
           className="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full 
-                   transition-all duration-300 transform hover:scale-105 flex items-center 
-                   mx-auto space-x-2"
+           transition-all duration-300 transform hover:scale-105 flex items-center 
+           mx-auto space-x-2"
         >
           <span>Learn More</span>
           <ArrowDown className="group-hover:translate-y-1 transition-transform duration-300" />
